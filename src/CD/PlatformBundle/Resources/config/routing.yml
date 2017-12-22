@@ -1,0 +1,48 @@
+# src/OC/PlatformBundle/Resources/config/routing.yml
+
+
+
+cd_platform_home:
+    path:      /{page}
+    defaults:
+        _controller: CDPlatformBundle:Advert:index
+        page:        1
+    requirements:
+        page: \d*
+    
+    
+cd_platform_view:
+    path:      /advert/{id}
+    defaults: 
+        _controller: CDPlatformBundle:Advert:view
+    requirements:
+        id: \d+
+        
+    
+cd_platform_add:
+    path:      /add
+    defaults: { _controller: CDPlatformBundle:Advert:add }
+    
+cd_platform_edit:
+    path:      /edit/{id}
+    defaults:
+        _controller: CDPlatformBundle:Advert:edit
+    requirements:
+        id: \d+
+
+cd_platform_delete:
+    path:      /delete/{id}
+    defaults:
+        _controller: CDPlatformBundle:Advert:delete
+    requirements:
+        id: \d+
+    
+
+cd_platform_view_slug:
+    path:      /{year}/{slug}.{format}
+    defaults:
+        _controller: CDPlatformBundle:Advert:viewSlug
+        format:      html
+    requirements:
+        year:    \d{4}
+        format: html|xml

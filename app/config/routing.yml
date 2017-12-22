@@ -1,0 +1,5 @@
+cd_platform:
+    resource: "@CDPlatformBundle/Resources/config/routing.yml"
+    prefix:   /platform
+
+

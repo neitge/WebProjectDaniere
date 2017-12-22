@@ -1,0 +1,14 @@
+e70ac0,127.0.0.1,GET,http://localhost/Symfo/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DCDPlatformBundle%253AAdvert%253Amenu,1513871840,d7d179,200
+d7d179,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/12,1513871840,,200
+61ba12,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert,1513871879,d497a4,200
+d497a4,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert,1513871879,,404
+643fcc,127.0.0.1,GET,http://localhost/Symfo/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DCDPlatformBundle%253AAdvert%253Amenu,1513871891,632b5b,200
+632b5b,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/12,1513871891,,200
+44ad85,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/,1513871894,3add88,200
+3add88,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/,1513871894,,404
+d6e385,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/11,1513871900,b71ab5,200
+b71ab5,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/11,1513871900,,404
+84f333,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/13,1513871906,d6ca89,200
+d6ca89,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/advert/13,1513871906,,404
+93578d,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/,1513871913,f49ebd,200
+f49ebd,::1,GET,http://localhost/Symfo/web/app_dev.php/platform/,1513871913,,404
